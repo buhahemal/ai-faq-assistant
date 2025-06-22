@@ -1,0 +1,342 @@
+{
+	"info": {
+		"_postman_id": "c1a9e3f0-4f2e-4b8a-9f7e-6a5b8c3d9a1b",
+		"name": "AI FAQ Assistant",
+		"description": "A comprehensive collection for testing the AI FAQ Assistant API endpoints, including support queries, data management, and administrative functions.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "General",
+			"item": [
+				{
+					"name": "Health Check",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/",
+							"host": [
+								"{{base_url}}"
+							]
+						},
+						"description": "Check if the service is healthy and ready."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Support",
+			"item": [
+				{
+					"name": "Query",
+					"item": [
+						{
+							"name": "Get Primary Answer",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"question\": \"How do I reset my password?\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/support/query",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"query"
+									]
+								},
+								"description": "Submit a question to get the single best answer."
+							},
+							"response": []
+						},
+						{
+							"name": "Get All Answers",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"question\": \"How do I reset my password?\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{base_url}}/support/query/all-answers",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"query",
+										"all-answers"
+									]
+								},
+								"description": "Submit a question to get all relevant answers."
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "QA Pairs",
+					"item": [
+						{
+							"name": "Get All QA Pairs",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/qa-pairs",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"qa-pairs"
+									]
+								},
+								"description": "Retrieve all question-answer pairs."
+							},
+							"response": []
+						},
+						{
+							"name": "Get QA Pair by ID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/qa-pairs/qa_001",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"qa-pairs",
+										"qa_001"
+									]
+								},
+								"description": "Retrieve a specific question-answer pair by its ID."
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Search & Discovery",
+					"item": [
+						{
+							"name": "Get Categories",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/categories",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"categories"
+									]
+								},
+								"description": "Get a list of all available categories."
+							},
+							"response": []
+						},
+						{
+							"name": "Get Tags",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/tags",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"tags"
+									]
+								},
+								"description": "Get a list of all available tags."
+							},
+							"response": []
+						},
+						{
+							"name": "Search by Category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/search/category/account_management",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"search",
+										"category",
+										"account_management"
+									]
+								},
+								"description": "Find QA pairs belonging to a specific category."
+							},
+							"response": []
+						},
+						{
+							"name": "Search by Tags",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{base_url}}/support/search/tags?tags=password&tags=security",
+									"host": [
+										"{{base_url}}"
+									],
+									"path": [
+										"support",
+										"search",
+										"tags"
+									],
+									"query": [
+										{
+											"key": "tags",
+											"value": "password"
+										},
+										{
+											"key": "tags",
+											"value": "security"
+										}
+									]
+								},
+								"description": "Find QA pairs matching one or more tags."
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Get Stats",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/support/stats",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"support",
+								"stats"
+							]
+						},
+						"description": "Get statistics about the QA data."
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Get Status",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/admin/status",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"status"
+							]
+						},
+						"description": "Get detailed system status, including uptime and memory usage."
+					},
+					"response": []
+				},
+				{
+					"name": "Reload Data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/admin/reload-data",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"reload-data"
+							]
+						},
+						"description": "Trigger a hot reload of the QA data from the source file."
+					},
+					"response": []
+				},
+				{
+					"name": "Save Data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{base_url}}/admin/save-data",
+							"host": [
+								"{{base_url}}"
+							],
+							"path": [
+								"admin",
+								"save-data"
+							]
+						},
+						"description": "Save the current in-memory QA data back to the JSON file. (Note: This might be disabled in production)."
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_url",
+			"value": "http://localhost:3001"
+		}
+	]
+} 

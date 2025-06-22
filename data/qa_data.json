@@ -1,0 +1,261 @@
+{
+  "qa_pairs": [
+    {
+      "id": "qa_001",
+      "question": "How do I reset my password?",
+      "answers": [
+        {
+          "id": "ans_001_01",
+          "answer": "To reset your password, go to the login page and click 'Forgot Password'. Enter your email address and follow the instructions sent to your inbox.",
+          "is_primary": true,
+          "tags": ["password", "login", "security"],
+          "category": "account_management"
+        },
+        {
+          "id": "ans_001_02",
+          "answer": "You can also reset your password by contacting our support team at 1-800-123-4567. They will guide you through the process and may ask for identity verification.",
+          "is_primary": false,
+          "tags": ["password", "support", "phone"],
+          "category": "account_management"
+        }
+      ],
+      "tags": ["password", "login", "security", "account"],
+      "category": "account_management",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_002",
+      "question": "What are your business hours?",
+      "answers": [
+        {
+          "id": "ans_002_01",
+          "answer": "We are open Monday through Friday from 9:00 AM to 6:00 PM EST. We are closed on weekends and major holidays.",
+          "is_primary": true,
+          "tags": ["hours", "business", "schedule"],
+          "category": "company_info"
+        }
+      ],
+      "tags": ["hours", "business", "schedule", "contact"],
+      "category": "company_info",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_003",
+      "question": "How can I contact customer support?",
+      "answers": [
+        {
+          "id": "ans_003_01",
+          "answer": "You can reach our customer support team by phone at 1-800-123-4567, by email at support@company.com, or through our live chat feature on our website.",
+          "is_primary": true,
+          "tags": ["support", "contact", "phone", "email", "chat"],
+          "category": "support"
+        },
+        {
+          "id": "ans_003_02",
+          "answer": "For urgent technical issues, please call our 24/7 emergency support line at 1-800-EMERGENCY. This line is available for critical system issues only.",
+          "is_primary": false,
+          "tags": ["support", "emergency", "urgent", "technical"],
+          "category": "support"
+        }
+      ],
+      "tags": ["support", "contact", "help", "assistance"],
+      "category": "support",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_004",
+      "question": "What is your return policy?",
+      "answers": [
+        {
+          "id": "ans_004_01",
+          "answer": "We offer a 30-day return policy for most items. Products must be in original condition with all packaging. Some items may have different return terms.",
+          "is_primary": true,
+          "tags": ["return", "policy", "refund", "30-days"],
+          "category": "policies"
+        },
+        {
+          "id": "ans_004_02",
+          "answer": "For software and digital products, returns are accepted within 7 days of purchase. Physical products have a 30-day return window.",
+          "is_primary": false,
+          "tags": ["return", "software", "digital", "7-days"],
+          "category": "policies"
+        },
+        {
+          "id": "ans_004_03",
+          "answer": "To initiate a return, log into your account, go to 'My Orders', select the item you want to return, and follow the return process. You'll receive a prepaid shipping label.",
+          "is_primary": false,
+          "tags": ["return", "process", "shipping", "label"],
+          "category": "policies"
+        }
+      ],
+      "tags": ["return", "policy", "refund", "shipping"],
+      "category": "policies",
+      "difficulty": "medium",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_005",
+      "question": "Do you offer free shipping?",
+      "answers": [
+        {
+          "id": "ans_005_01",
+          "answer": "Yes, we offer free shipping on all orders over $50. Orders under $50 have a flat shipping rate of $5.99.",
+          "is_primary": true,
+          "tags": ["shipping", "free", "cost", "minimum"],
+          "category": "shipping"
+        },
+        {
+          "id": "ans_005_02",
+          "answer": "Premium members get free shipping on all orders regardless of amount. You can upgrade to premium for $9.99/month.",
+          "is_primary": false,
+          "tags": ["shipping", "premium", "membership", "free"],
+          "category": "shipping"
+        }
+      ],
+      "tags": ["shipping", "free", "cost", "delivery"],
+      "category": "shipping",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_006",
+      "question": "How do I track my order?",
+      "answers": [
+        {
+          "id": "ans_006_01",
+          "answer": "You can track your order by logging into your account and visiting the 'My Orders' section, or by using the tracking number sent to your email.",
+          "is_primary": true,
+          "tags": ["tracking", "order", "status", "email"],
+          "category": "orders"
+        },
+        {
+          "id": "ans_006_02",
+          "answer": "You can also track your order by entering the tracking number directly on our website's tracking page, or by calling our order support line.",
+          "is_primary": false,
+          "tags": ["tracking", "order", "phone", "website"],
+          "category": "orders"
+        }
+      ],
+      "tags": ["tracking", "order", "status", "delivery"],
+      "category": "orders",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_007",
+      "question": "What payment methods do you accept?",
+      "answers": [
+        {
+          "id": "ans_007_01",
+          "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay.",
+          "is_primary": true,
+          "tags": ["payment", "credit-cards", "paypal", "digital-wallet"],
+          "category": "payment"
+        },
+        {
+          "id": "ans_007_02",
+          "answer": "For business accounts, we also accept wire transfers and purchase orders. Contact our sales team for business payment options.",
+          "is_primary": false,
+          "tags": ["payment", "business", "wire-transfer", "purchase-order"],
+          "category": "payment"
+        }
+      ],
+      "tags": ["payment", "credit-cards", "paypal", "digital-wallet"],
+      "category": "payment",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_008",
+      "question": "How do I update my account information?",
+      "answers": [
+        {
+          "id": "ans_008_01",
+          "answer": "To update your account information, log into your account and go to 'Account Settings'. You can modify your personal details, shipping addresses, and payment methods there.",
+          "is_primary": true,
+          "tags": ["account", "settings", "profile", "update"],
+          "category": "account_management"
+        },
+        {
+          "id": "ans_008_02",
+          "answer": "For security reasons, some account changes (like email address) may require verification. You'll receive a confirmation email to complete the process.",
+          "is_primary": false,
+          "tags": ["account", "security", "verification", "email"],
+          "category": "account_management"
+        }
+      ],
+      "tags": ["account", "settings", "profile", "update"],
+      "category": "account_management",
+      "difficulty": "easy",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_009",
+      "question": "What is your warranty policy?",
+      "answers": [
+        {
+          "id": "ans_009_01",
+          "answer": "Most products come with a 1-year manufacturer warranty. Extended warranties are available for purchase on select items.",
+          "is_primary": true,
+          "tags": ["warranty", "manufacturer", "extended", "coverage"],
+          "category": "policies"
+        },
+        {
+          "id": "ans_009_02",
+          "answer": "Software products have a 90-day warranty. Hardware products have a 1-year warranty. Extended warranties can extend coverage up to 3 years.",
+          "is_primary": false,
+          "tags": ["warranty", "software", "hardware", "coverage"],
+          "category": "policies"
+        }
+      ],
+      "tags": ["warranty", "coverage", "manufacturer", "extended"],
+      "category": "policies",
+      "difficulty": "medium",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "qa_010",
+      "question": "How do I cancel my subscription?",
+      "answers": [
+        {
+          "id": "ans_010_01",
+          "answer": "To cancel your subscription, go to your account dashboard, select 'Subscriptions', and click 'Cancel Subscription'. You can also contact customer support for assistance.",
+          "is_primary": true,
+          "tags": ["subscription", "cancel", "dashboard", "support"],
+          "category": "subscriptions"
+        },
+        {
+          "id": "ans_010_02",
+          "answer": "You can cancel anytime, but no refunds are provided for partial months. Your subscription will remain active until the end of your current billing period.",
+          "is_primary": false,
+          "tags": ["subscription", "cancel", "refund", "billing"],
+          "category": "subscriptions"
+        }
+      ],
+      "tags": ["subscription", "cancel", "billing", "support"],
+      "category": "subscriptions",
+      "difficulty": "medium",
+      "last_updated": "2024-01-15T10:00:00.000Z"
+    }
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "total_questions": 10,
+    "total_answers": 18,
+    "categories": [
+      "account_management",
+      "company_info", 
+      "support",
+      "policies",
+      "shipping",
+      "orders",
+      "payment",
+      "subscriptions"
+    ],
+    "last_updated": "2024-01-15T10:00:00.000Z",
+    "description": "AI FAQ Assistant Knowledge Base with support for multiple answers per question"
+  }
+} 
