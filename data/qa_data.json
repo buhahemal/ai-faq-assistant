@@ -2,260 +2,899 @@
   "qa_pairs": [
     {
       "id": "qa_001",
-      "question": "How do I reset my password?",
+      "question": "How do I create a new workspace?",
       "answers": [
         {
           "id": "ans_001_01",
-          "answer": "To reset your password, go to the login page and click 'Forgot Password'. Enter your email address and follow the instructions sent to your inbox.",
+          "answer": "To create a new workspace, go to our main website and click on 'Create a New Workspace'. You'll be guided through the setup process, which includes naming your workspace and inviting your first team members.",
           "is_primary": true,
-          "tags": ["password", "login", "security"],
-          "category": "account_management"
-        },
-        {
-          "id": "ans_001_02",
-          "answer": "You can also reset your password by contacting our support team at 1-800-123-4567. They will guide you through the process and may ask for identity verification.",
-          "is_primary": false,
-          "tags": ["password", "support", "phone"],
-          "category": "account_management"
+          "tags": ["create", "workspace", "setup", "new"],
+          "category": "getting_started"
         }
       ],
-      "tags": ["password", "login", "security", "account"],
-      "category": "account_management",
+      "tags": ["workspace", "create", "getting started"],
+      "category": "getting_started",
       "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_002",
-      "question": "What are your business hours?",
+      "question": "How do I invite people to my workspace?",
       "answers": [
         {
           "id": "ans_002_01",
-          "answer": "We are open Monday through Friday from 9:00 AM to 6:00 PM EST. We are closed on weekends and major holidays.",
+          "answer": "You can invite people by clicking on the workspace name in the top left, then selecting 'Invite people to [Workspace Name]'. You can send invites via email or by sharing a special invitation link.",
           "is_primary": true,
-          "tags": ["hours", "business", "schedule"],
-          "category": "company_info"
+          "tags": ["invite", "members", "team", "add users"],
+          "category": "getting_started"
+        },
+        {
+          "id": "ans_002_02",
+          "answer": "Workspace Admins can also manage invitations from the 'Administration' > 'Manage Members' section.",
+          "is_primary": false,
+          "tags": ["admin", "invite", "members"],
+          "category": "workspace_administration"
         }
       ],
-      "tags": ["hours", "business", "schedule", "contact"],
-      "category": "company_info",
+      "tags": ["invite", "users", "team", "members"],
+      "category": "getting_started",
       "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_003",
-      "question": "How can I contact customer support?",
+      "question": "How do I reset my password?",
       "answers": [
         {
           "id": "ans_003_01",
-          "answer": "You can reach our customer support team by phone at 1-800-123-4567, by email at support@company.com, or through our live chat feature on our website.",
+          "answer": "To reset your password, go to the login page and click 'Forgot Password?'. Enter the email address associated with your account, and we'll send you a link to create a new password.",
           "is_primary": true,
-          "tags": ["support", "contact", "phone", "email", "chat"],
-          "category": "support"
-        },
-        {
-          "id": "ans_003_02",
-          "answer": "For urgent technical issues, please call our 24/7 emergency support line at 1-800-EMERGENCY. This line is available for critical system issues only.",
-          "is_primary": false,
-          "tags": ["support", "emergency", "urgent", "technical"],
-          "category": "support"
+          "tags": ["password", "reset", "forgot", "login"],
+          "category": "account_management"
         }
       ],
-      "tags": ["support", "contact", "help", "assistance"],
-      "category": "support",
+      "tags": ["password", "account", "security", "login"],
+      "category": "account_management",
       "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_004",
-      "question": "What is your return policy?",
+      "question": "What is the difference between a public and a private channel?",
       "answers": [
         {
           "id": "ans_004_01",
-          "answer": "We offer a 30-day return policy for most items. Products must be in original condition with all packaging. Some items may have different return terms.",
+          "answer": "Public channels are open for anyone in the workspace to join and view its entire message history. Private channels are for sensitive or specific conversations and require an invitation to join. Their contents are not visible to others.",
           "is_primary": true,
-          "tags": ["return", "policy", "refund", "30-days"],
-          "category": "policies"
-        },
-        {
-          "id": "ans_004_02",
-          "answer": "For software and digital products, returns are accepted within 7 days of purchase. Physical products have a 30-day return window.",
-          "is_primary": false,
-          "tags": ["return", "software", "digital", "7-days"],
-          "category": "policies"
-        },
-        {
-          "id": "ans_004_03",
-          "answer": "To initiate a return, log into your account, go to 'My Orders', select the item you want to return, and follow the return process. You'll receive a prepaid shipping label.",
-          "is_primary": false,
-          "tags": ["return", "process", "shipping", "label"],
-          "category": "policies"
+          "tags": ["channels", "public", "private", "visibility"],
+          "category": "channels_and_dms"
         }
       ],
-      "tags": ["return", "policy", "refund", "shipping"],
-      "category": "policies",
-      "difficulty": "medium",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "tags": ["channels", "public", "private", "permissions"],
+      "category": "channels_and_dms",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_005",
-      "question": "Do you offer free shipping?",
+      "question": "How do I format my messages?",
       "answers": [
         {
           "id": "ans_005_01",
-          "answer": "Yes, we offer free shipping on all orders over $50. Orders under $50 have a flat shipping rate of $5.99.",
+          "answer": "You can format messages using markdown-style syntax. For example, wrap text in *asterisks* for bold, _underscores_ for italics, and `backticks` for code blocks. You can also use the formatting toolbar in the message input box.",
           "is_primary": true,
-          "tags": ["shipping", "free", "cost", "minimum"],
-          "category": "shipping"
-        },
-        {
-          "id": "ans_005_02",
-          "answer": "Premium members get free shipping on all orders regardless of amount. You can upgrade to premium for $9.99/month.",
-          "is_primary": false,
-          "tags": ["shipping", "premium", "membership", "free"],
-          "category": "shipping"
+          "tags": ["formatting", "markdown", "bold", "italics", "code"],
+          "category": "messaging"
         }
       ],
-      "tags": ["shipping", "free", "cost", "delivery"],
-      "category": "shipping",
-      "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "tags": ["messages", "formatting", "text"],
+      "category": "messaging",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_006",
-      "question": "How do I track my order?",
+      "question": "How do I start or reply to a thread?",
       "answers": [
         {
           "id": "ans_006_01",
-          "answer": "You can track your order by logging into your account and visiting the 'My Orders' section, or by using the tracking number sent to your email.",
+          "answer": "To start a thread, hover over a message and click the 'Reply in thread' icon. This keeps conversations organized and reduces noise in the main channel view. Any replies in the thread will be nested under the original message.",
           "is_primary": true,
-          "tags": ["tracking", "order", "status", "email"],
-          "category": "orders"
-        },
-        {
-          "id": "ans_006_02",
-          "answer": "You can also track your order by entering the tracking number directly on our website's tracking page, or by calling our order support line.",
-          "is_primary": false,
-          "tags": ["tracking", "order", "phone", "website"],
-          "category": "orders"
+          "tags": ["threads", "reply", "conversation", "organize"],
+          "category": "messaging"
         }
       ],
-      "tags": ["tracking", "order", "status", "delivery"],
-      "category": "orders",
+      "tags": ["threads", "replies", "conversations"],
+      "category": "messaging",
       "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_007",
-      "question": "What payment methods do you accept?",
+      "question": "How can I configure my notifications?",
       "answers": [
         {
           "id": "ans_007_01",
-          "answer": "We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, and Google Pay.",
+          "answer": "You can customize your notification preferences by going to 'Preferences' > 'Notifications'. You can choose to be notified of all messages, only direct messages and mentions, or nothing. You can also set channel-specific notification settings.",
           "is_primary": true,
-          "tags": ["payment", "credit-cards", "paypal", "digital-wallet"],
-          "category": "payment"
-        },
-        {
-          "id": "ans_007_02",
-          "answer": "For business accounts, we also accept wire transfers and purchase orders. Contact our sales team for business payment options.",
-          "is_primary": false,
-          "tags": ["payment", "business", "wire-transfer", "purchase-order"],
-          "category": "payment"
+          "tags": ["notifications", "settings", "preferences", "alerts"],
+          "category": "notifications"
         }
       ],
-      "tags": ["payment", "credit-cards", "paypal", "digital-wallet"],
-      "category": "payment",
-      "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "tags": ["notifications", "alerts", "settings", "preferences"],
+      "category": "notifications",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_008",
-      "question": "How do I update my account information?",
+      "question": "How do I start a huddle?",
       "answers": [
         {
           "id": "ans_008_01",
-          "answer": "To update your account information, log into your account and go to 'Account Settings'. You can modify your personal details, shipping addresses, and payment methods there.",
+          "answer": "You can start a huddle in any channel or DM by toggling the headphones icon in the bottom-left corner of the sidebar. It creates a live audio space for quick, informal conversations.",
           "is_primary": true,
-          "tags": ["account", "settings", "profile", "update"],
-          "category": "account_management"
-        },
-        {
-          "id": "ans_008_02",
-          "answer": "For security reasons, some account changes (like email address) may require verification. You'll receive a confirmation email to complete the process.",
-          "is_primary": false,
-          "tags": ["account", "security", "verification", "email"],
-          "category": "account_management"
+          "tags": ["huddle", "audio", "call", "voice chat"],
+          "category": "calls_and_huddles"
         }
       ],
-      "tags": ["account", "settings", "profile", "update"],
-      "category": "account_management",
+      "tags": ["huddles", "calls", "audio"],
+      "category": "calls_and_huddles",
       "difficulty": "easy",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_009",
-      "question": "What is your warranty policy?",
+      "question": "How do I upload and share a file?",
       "answers": [
         {
           "id": "ans_009_01",
-          "answer": "Most products come with a 1-year manufacturer warranty. Extended warranties are available for purchase on select items.",
+          "answer": "To upload a file, click the paperclip icon in the message box or drag and drop the file directly into the chat window. You can add a message before sharing it.",
           "is_primary": true,
-          "tags": ["warranty", "manufacturer", "extended", "coverage"],
-          "category": "policies"
-        },
-        {
-          "id": "ans_009_02",
-          "answer": "Software products have a 90-day warranty. Hardware products have a 1-year warranty. Extended warranties can extend coverage up to 3 years.",
-          "is_primary": false,
-          "tags": ["warranty", "software", "hardware", "coverage"],
-          "category": "policies"
+          "tags": ["files", "upload", "share", "attachments"],
+          "category": "files_and_integrations"
         }
       ],
-      "tags": ["warranty", "coverage", "manufacturer", "extended"],
-      "category": "policies",
-      "difficulty": "medium",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "tags": ["files", "upload", "sharing"],
+      "category": "files_and_integrations",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
     },
     {
       "id": "qa_010",
-      "question": "How do I cancel my subscription?",
+      "question": "How do I search for messages and files?",
       "answers": [
         {
           "id": "ans_010_01",
-          "answer": "To cancel your subscription, go to your account dashboard, select 'Subscriptions', and click 'Cancel Subscription'. You can also contact customer support for assistance.",
+          "answer": "Use the search bar at the top of the app. You can type keywords and use filters like 'from:', 'in:', and 'has:' to narrow down your results. You can search across your entire workspace or within a specific channel.",
           "is_primary": true,
-          "tags": ["subscription", "cancel", "dashboard", "support"],
-          "category": "subscriptions"
-        },
-        {
-          "id": "ans_010_02",
-          "answer": "You can cancel anytime, but no refunds are provided for partial months. Your subscription will remain active until the end of your current billing period.",
-          "is_primary": false,
-          "tags": ["subscription", "cancel", "refund", "billing"],
-          "category": "subscriptions"
+          "tags": ["search", "find", "messages", "files", "filter"],
+          "category": "search"
         }
       ],
-      "tags": ["subscription", "cancel", "billing", "support"],
-      "category": "subscriptions",
+      "tags": ["search", "find", "history"],
+      "category": "search",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_011",
+      "question": "How do I manage member roles and permissions?",
+      "answers": [
+        {
+          "id": "ans_011_01",
+          "answer": "Workspace Owners and Admins can manage roles from 'Administration' > 'Manage members'. You can assign roles like Admin, Member, or Guest, each with different permissions.",
+          "is_primary": true,
+          "tags": ["admin", "roles", "permissions", "user management"],
+          "category": "workspace_administration"
+        }
+      ],
+      "tags": ["administration", "roles", "permissions"],
+      "category": "workspace_administration",
       "difficulty": "medium",
-      "last_updated": "2024-01-15T10:00:00.000Z"
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_012",
+      "question": "How do I enable two-factor authentication (2FA)?",
+      "answers": [
+        {
+          "id": "ans_012_01",
+          "answer": "You can enable 2FA in your 'Account Settings' under the 'Security' tab. We recommend setting it up to add an extra layer of security to your account. You can use an authenticator app or SMS.",
+          "is_primary": true,
+          "tags": ["2fa", "two-factor", "security", "authentication", "login"],
+          "category": "security"
+        }
+      ],
+      "tags": ["security", "2fa", "authentication"],
+      "category": "security",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_013",
+      "question": "How do I upgrade to a paid plan?",
+      "answers": [
+        {
+          "id": "ans_013_01",
+          "answer": "Workspace Owners can upgrade by going to 'Administration' > 'Billing'. From there, you can choose a plan that fits your team's needs and enter your payment information.",
+          "is_primary": true,
+          "tags": ["upgrade", "billing", "plan", "subscription", "payment"],
+          "category": "billing_and_subscriptions"
+        }
+      ],
+      "tags": ["billing", "subscription", "upgrade", "paid plan"],
+      "category": "billing_and_subscriptions",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_014",
+      "question": "Why am I not receiving notifications?",
+      "answers": [
+        {
+          "id": "ans_014_01",
+          "answer": "Check your notification settings in 'Preferences' > 'Notifications'. Also, ensure you haven't enabled Do Not Disturb (DND) mode. On desktop and mobile, check your system's notification settings to ensure our app is allowed to send them.",
+          "is_primary": true,
+          "tags": ["notifications", "troubleshooting", "missing", "alerts"],
+          "category": "troubleshooting"
+        }
+      ],
+      "tags": ["troubleshooting", "notifications", "issues"],
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_015",
+      "question": "How do I use the desktop app?",
+      "answers": [
+        {
+          "id": "ans_015_01",
+          "answer": "You can download our desktop app for Windows, macOS, and Linux from our website. The desktop app offers the best experience with native notifications, multiple workspace switching, and better performance.",
+          "is_primary": true,
+          "tags": ["desktop", "app", "download", "install"],
+          "category": "mobile_and_desktop_apps"
+        }
+      ],
+      "tags": ["desktop app", "download", "features"],
+      "category": "mobile_and_desktop_apps",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_016",
+      "question": "Can I join multiple workspaces?",
+      "answers": [
+        {
+          "id": "ans_016_01",
+          "answer": "Yes, you can be a member of multiple workspaces. If you use the desktop or mobile app, you can easily switch between them from the sidebar on the left.",
+          "is_primary": true,
+          "tags": ["workspaces", "multiple", "join", "switch"],
+          "category": "getting_started"
+        }
+      ],
+      "tags": ["workspaces", "multiple accounts"],
+      "category": "getting_started",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_017",
+      "question": "How do I edit or delete a message?",
+      "answers": [
+        {
+          "id": "ans_017_01",
+          "answer": "Hover over a message you've sent, click the three-dots menu, and select 'Edit message' or 'Delete message'. Note that your workspace admin may have set time limits for editing or deleting messages.",
+          "is_primary": true,
+          "tags": ["message", "edit", "delete", "modify"],
+          "category": "messaging"
+        }
+      ],
+      "tags": ["messages", "editing", "deleting"],
+      "category": "messaging",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_018",
+      "question": "How do I mention someone?",
+      "answers": [
+        {
+          "id": "ans_018_01",
+          "answer": "To mention a teammate, type the '@' symbol followed by their name. They will receive a notification. You can also use '@channel' to notify everyone in a channel or '@here' to notify only active members.",
+          "is_primary": true,
+          "tags": ["mention", "at-mention", "notify", "tag"],
+          "category": "messaging"
+        }
+      ],
+      "tags": ["mentions", "notifications"],
+      "category": "messaging",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_019",
+      "question": "How do I set up Do Not Disturb (DND)?",
+      "answers": [
+        {
+          "id": "ans_019_01",
+          "answer": "You can pause notifications by setting a DND schedule. Go to 'Preferences' > 'Notifications' and set your DND hours. You can also manually turn DND on or off by clicking the bell icon next to your workspace name.",
+          "is_primary": true,
+          "tags": ["dnd", "do not disturb", "notifications", "pause", "focus"],
+          "category": "notifications"
+        }
+      ],
+      "tags": ["dnd", "notifications", "focus mode"],
+      "category": "notifications",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_020",
+      "question": "How can I add an app or integration?",
+      "answers": [
+        {
+          "id": "ans_020_01",
+          "answer": "You can browse and add apps from the App Directory. Click on 'Apps' in your left sidebar to find integrations for tools like Google Drive, Trello, GitHub, and more. Some apps may require admin approval.",
+          "is_primary": true,
+          "tags": ["apps", "integrations", "add", "connect", "app directory"],
+          "category": "files_and_integrations"
+        }
+      ],
+      "tags": ["apps", "integrations", "bots"],
+      "category": "files_and_integrations",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_021",
+      "question": "How do I change my workspace URL?",
+      "answers": [
+        {
+          "id": "ans_021_01",
+          "answer": "The Workspace Owner can change the workspace URL from 'Administration' > 'Workspace Settings'. Changing the URL will update the address where members log in, so be sure to notify your team.",
+          "is_primary": true,
+          "tags": ["workspace", "url", "address", "rename", "admin"],
+          "category": "workspace_administration"
+        }
+      ],
+      "tags": ["workspace url", "admin", "settings"],
+      "category": "workspace_administration",
+      "difficulty": "hard",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_022",
+      "question": "Is my data encrypted?",
+      "answers": [
+        {
+          "id": "ans_022_01",
+          "answer": "Yes, we take security very seriously. All data is encrypted in transit using TLS 1.2+ and at rest using AES-256. We follow industry best practices to protect your data.",
+          "is_primary": true,
+          "tags": ["security", "encryption", "data", "privacy", "tls", "aes"],
+          "category": "security"
+        }
+      ],
+      "tags": ["security", "encryption", "privacy"],
+      "category": "security",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_023",
+      "question": "How do I cancel my subscription?",
+      "answers": [
+        {
+          "id": "ans_023_01",
+          "answer": "The Workspace Owner can cancel a paid subscription from 'Administration' > 'Billing'. Your workspace will be downgraded to the free plan at the end of your current billing cycle. You won't be charged again.",
+          "is_primary": true,
+          "tags": ["subscription", "cancel", "billing", "downgrade"],
+          "category": "billing_and_subscriptions"
+        }
+      ],
+      "tags": ["subscription", "cancel", "billing"],
+      "category": "billing_and_subscriptions",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_024",
+      "question": "How do I clear the app's cache?",
+      "answers": [
+        {
+          "id": "ans_024_01",
+          "answer": "In the desktop app, you can clear the cache by going to 'Help' > 'Troubleshooting' > 'Clear Cache and Restart'. This can resolve some display or performance issues.",
+          "is_primary": true,
+          "tags": ["troubleshooting", "cache", "clear", "performance", "desktop app"],
+          "category": "troubleshooting"
+        }
+      ],
+      "tags": ["cache", "troubleshooting", "performance"],
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_025",
+      "question": "What is a channel?",
+      "answers": [
+        {
+          "id": "ans_025_01",
+          "answer": "Channels are spaces for conversations in your workspace. They're typically organized around a topic (e.g., #marketing), a project (e.g., #project-x), or a team (e.g., #design-team).",
+          "is_primary": true,
+          "tags": ["channels", "basics", "conversations", "topics"],
+          "category": "channels_and_dms"
+        }
+      ],
+      "tags": ["channels", "getting started"],
+      "category": "channels_and_dms",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_026",
+      "question": "Can I schedule a message to be sent later?",
+      "answers": [
+        {
+          "id": "ans_026_01",
+          "answer": "Yes! After typing your message, click the dropdown arrow next to the send button and select 'Schedule message'. You can choose a preset time or a custom date and time.",
+          "is_primary": true,
+          "tags": ["schedule", "message", "send later", "timing"],
+          "category": "messaging"
+        }
+      ],
+      "tags": ["schedule messages", "automation"],
+      "category": "messaging",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_027",
+      "question": "How do I mute a channel or DM?",
+      "answers": [
+        {
+          "id": "ans_027_01",
+          "answer": "To mute a conversation, right-click the channel or DM name in your sidebar and select 'Mute channel'. You will no longer receive notifications for it, but you'll see a badge if you're mentioned.",
+          "is_primary": true,
+          "tags": ["mute", "notifications", "channel", "dm", "quiet"],
+          "category": "notifications"
+        }
+      ],
+      "tags": ["mute", "notifications"],
+      "category": "notifications",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_028",
+      "question": "Can I share my screen during a call or huddle?",
+      "answers": [
+        {
+          "id": "ans_028_01",
+          "answer": "Yes, screen sharing is available in both video calls and huddles. Look for the screen sharing icon during an active session to present your screen to others.",
+          "is_primary": true,
+          "tags": ["screen sharing", "call", "huddle", "present"],
+          "category": "calls_and_huddles"
+        }
+      ],
+      "tags": ["screen sharing", "calls", "huddles"],
+      "category": "calls_and_huddles",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_029",
+      "question": "Where can I find all files shared in a channel?",
+      "answers": [
+        {
+          "id": "ans_029_01",
+          "answer": "Click the channel name at the top of the view, then select the 'Files' tab. This will show you a list of all files that have been shared in that specific conversation.",
+          "is_primary": true,
+          "tags": ["files", "find", "channel", "history", "attachments"],
+          "category": "files_and_integrations"
+        }
+      ],
+      "tags": ["files", "search", "history"],
+      "category": "files_and_integrations",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_030",
+      "question": "How do I use search modifiers?",
+      "answers": [
+        {
+          "id": "ans_030_01",
+          "answer": "Enhance your search with modifiers. Use 'from:@username' to find messages from a person, 'in:#channel' for a specific channel, 'before:yyyy-mm-dd' or 'after:yyyy-mm-dd' for date ranges, and 'has:link' for messages with links.",
+          "is_primary": true,
+          "tags": ["search", "advanced", "modifiers", "filters"],
+          "category": "search"
+        }
+      ],
+      "tags": ["search", "advanced", "filters"],
+      "category": "search",
+      "difficulty": "hard",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_031",
+      "question": "How do I set a channel topic or description?",
+      "answers": [
+        {
+          "id": "ans_031_01",
+          "answer": "Any member of a channel can set its topic or description. Click the channel name at the top of the screen, and you'll see fields to 'Add a topic' or 'Edit' the description. This helps everyone understand the channel's purpose.",
+          "is_primary": true,
+          "tags": ["channel", "topic", "description", "purpose", "edit"],
+          "category": "channels_and_dms"
+        }
+      ],
+      "tags": ["channels", "settings", "topic"],
+      "category": "channels_and_dms",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_032",
+      "question": "Can I export my workspace data?",
+      "answers": [
+        {
+          "id": "ans_032_01",
+          "answer": "Workspace Owners on paid plans can export data. Go to 'Administration' > 'Workspace Settings' and look for the 'Data Export' tab. You can export public channel data. Exporting from private channels and DMs may require our Plus or Enterprise plan.",
+          "is_primary": true,
+          "tags": ["export", "data", "admin", "backup", "compliance"],
+          "category": "workspace_administration"
+        }
+      ],
+      "tags": ["data export", "admin", "backup"],
+      "category": "workspace_administration",
+      "difficulty": "hard",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_033",
+      "question": "What happens when my free trial ends?",
+      "answers": [
+        {
+          "id": "ans_033_01",
+          "answer": "When your paid plan trial ends, you can choose to upgrade to continue using the premium features. If you don't, your workspace will be automatically downgraded to our free plan. You won't lose your messages, but some features and your message history will become limited.",
+          "is_primary": true,
+          "tags": ["trial", "end", "subscription", "upgrade", "downgrade"],
+          "category": "billing_and_subscriptions"
+        }
+      ],
+      "tags": ["trial", "subscription", "billing"],
+      "category": "billing_and_subscriptions",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_034",
+      "question": "The desktop app won't start. What should I do?",
+      "answers": [
+        {
+          "id": "ans_034_01",
+          "answer": "First, try restarting your computer. If that doesn't work, try clearing the cache ('Help' > 'Troubleshooting' > 'Clear Cache and Restart'). As a last resort, you may need to fully reinstall the application.",
+          "is_primary": true,
+          "tags": ["troubleshooting", "desktop app", "start", "launch", "error"],
+          "category": "troubleshooting"
+        }
+      ],
+      "tags": ["troubleshooting", "desktop app", "error"],
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_035",
+      "question": "How do I set my status?",
+      "answers": [
+        {
+          "id": "ans_035_01",
+          "answer": "Click your profile picture in the top right and select 'Set a status'. You can choose a suggested status, like 'In a meeting' or 'Commuting', or create your own custom status with an emoji.",
+          "is_primary": true,
+          "tags": ["status", "profile", "away", "busy"],
+          "category": "account_management"
+        }
+      ],
+      "tags": ["status", "profile", "availability"],
+      "category": "account_management",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_036",
+      "question": "How do I use emoji reactions?",
+      "answers": [
+        {
+          "id": "ans_036_01",
+          "answer": "Hover over any message and click the 'Add reaction' icon (a smiley face). You can then pick any emoji to react to the message. This is a quick way to acknowledge messages without cluttering the conversation.",
+          "is_primary": true,
+          "tags": ["emoji", "reactions", "reacji", "messaging"],
+          "category": "messaging"
+        }
+      ],
+      "tags": ["emoji", "reactions"],
+      "category": "messaging",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_037",
+      "question": "Can I get notifications for specific keywords?",
+      "answers": [
+        {
+          "id": "ans_037_01",
+          "answer": "Yes. In 'Preferences' > 'Notifications', you can set up 'My keywords'. You'll get a notification whenever one of those words is mentioned in any channel you're in, even if the channel is muted.",
+          "is_primary": true,
+          "tags": ["keywords", "notifications", "alerts", "mentions"],
+          "category": "notifications"
+        }
+      ],
+      "tags": ["keywords", "notifications", "advanced"],
+      "category": "notifications",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_038",
+      "question": "What's the file size limit for uploads?",
+      "answers": [
+        {
+          "id": "ans_038_01",
+          "answer": "On our Free plan, the file size limit is 1GB per file. On our paid plans (Pro and Business+), you can upload files up to 5GB.",
+          "is_primary": true,
+          "tags": ["files", "upload", "limit", "size", "storage"],
+          "category": "files_and_integrations"
+        }
+      ],
+      "tags": ["file size", "upload limit"],
+      "category": "files_and_integrations",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_039",
+      "question": "How do I archive a channel?",
+      "answers": [
+        {
+          "id": "ans_039_01",
+          "answer": "To archive a channel you are a member of, open the channel, click the channel name, go to the 'Settings' tab, and select 'Archive this channel'. Archiving closes a channel to new activity, but the message history is retained and searchable. You must be a channel admin or workspace admin.",
+          "is_primary": true,
+          "tags": ["archive", "channel", "close", "admin"],
+          "category": "channels_and_dms"
+        }
+      ],
+      "tags": ["channels", "archive", "admin"],
+      "category": "channels_and_dms",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_040",
+      "question": "Can I transfer ownership of a workspace?",
+      "answers": [
+        {
+          "id": "ans_040_01",
+          "answer": "Yes, the current Primary Owner can transfer ownership to another member. This is a critical action and can be done from 'Administration' > 'Manage Members'. Select the member and choose 'Make Primary Owner'.",
+          "is_primary": true,
+          "tags": ["owner", "transfer", "admin", "workspace", "security"],
+          "category": "workspace_administration"
+        }
+      ],
+      "tags": ["ownership", "admin", "critical"],
+      "category": "workspace_administration",
+      "difficulty": "hard",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_041",
+      "question": "What are your data retention policies?",
+      "answers": [
+        {
+          "id": "ans_041_01",
+          "answer": "By default, we retain all messages and files for the lifetime of your workspace. On our advanced plans, Workspace Owners can set custom retention policies to automatically delete messages and files after a certain period of time for compliance.",
+          "is_primary": true,
+          "tags": ["data retention", "security", "policy", "compliance", "delete"],
+          "category": "security"
+        }
+      ],
+      "tags": ["data retention", "security", "privacy"],
+      "category": "security",
+      "difficulty": "hard",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_042",
+      "question": "Where can I find my invoices?",
+      "answers": [
+        {
+          "id": "ans_042_01",
+          "answer": "The Workspace Owner and Billing Admins can access all past invoices from 'Administration' > 'Billing' under the 'Billing History' tab.",
+          "is_primary": true,
+          "tags": ["invoice", "billing", "history", "payment", "receipt"],
+          "category": "billing_and_subscriptions"
+        }
+      ],
+      "tags": ["invoices", "billing", "receipts"],
+      "category": "billing_and_subscriptions",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_043",
+      "question": "Can I use the app on my phone?",
+      "answers": [
+        {
+          "id": "ans_043_01",
+          "answer": "Absolutely! We have fully-featured mobile apps for both iOS and Android. You can download them from the Apple App Store or Google Play Store to stay connected on the go.",
+          "is_primary": true,
+          "tags": ["mobile", "app", "ios", "android", "phone", "tablet"],
+          "category": "mobile_and_desktop_apps"
+        }
+      ],
+      "tags": ["mobile app", "ios", "android"],
+      "category": "mobile_and_desktop_apps",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_044",
+      "question": "What is a group DM?",
+      "answers": [
+        {
+          "id": "ans_044_01",
+          "answer": "A group DM is a direct message with up to nine people. It's perfect for smaller, focused conversations that don't require a full channel. To start one, click the '+' sign next to 'Direct Messages' and add the people you want to include.",
+          "is_primary": true,
+          "tags": ["dm", "group dm", "direct message", "conversation"],
+          "category": "channels_and_dms"
+        }
+      ],
+      "tags": ["dms", "group chat"],
+      "category": "channels_and_dms",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_045",
+      "question": "How do I set reminders?",
+      "answers": [
+        {
+          "id": "ans_045_01",
+          "answer": "You can set a reminder for any message by hovering over it, clicking the three-dots menu, and selecting 'Remind me about this'. You can also use the '/remind' slash command to create custom reminders for yourself or a channel.",
+          "is_primary": true,
+          "tags": ["reminders", "slash command", "tasks", "notifications"],
+          "category": "messaging"
+        }
+      ],
+      "tags": ["reminders", "productivity"],
+      "category": "messaging",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_046",
+      "question": "How many people can join a huddle?",
+      "answers": [
+        {
+          "id": "ans_046_01",
+          "answer": "Huddles can support up to 50 participants for live audio conversations. For video, you can have two people sharing their video at a time.",
+          "is_primary": true,
+          "tags": ["huddles", "limit", "participants", "audio", "call"],
+          "category": "calls_and_huddles"
+        }
+      ],
+      "tags": ["huddles", "limits", "participants"],
+      "category": "calls_and_huddles",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_047",
+      "question": "How do I find a user's profile?",
+      "answers": [
+        {
+          "id": "ans_047_01",
+          "answer": "You can find someone's profile by clicking their name or avatar anywhere in the app. This will open their profile card where you can see their status, time zone, and contact information.",
+          "is_primary": true,
+          "tags": ["profile", "user", "find", "contact info"],
+          "category": "account_management"
+        }
+      ],
+      "tags": ["profile", "users", "directory"],
+      "category": "account_management",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_048",
+      "question": "Can I save a search?",
+      "answers": [
+        {
+          "id": "ans_048_01",
+          "answer": "Currently, we do not have a feature to save searches. However, your recent searches are saved in the search bar dropdown for quick access.",
+          "is_primary": true,
+          "tags": ["search", "save", "feature", "history"],
+          "category": "search"
+        }
+      ],
+      "tags": ["search", "saved search", "features"],
+      "category": "search",
+      "difficulty": "easy",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_049",
+      "question": "How can I see workspace usage statistics?",
+      "answers": [
+        {
+          "id": "ans_049_01",
+          "answer": "Workspace Owners and Admins on paid plans can view detailed analytics. Go to 'Administration' > 'Analytics' to see data on active users, message counts, file storage, and popular channels.",
+          "is_primary": true,
+          "tags": ["admin", "analytics", "stats", "usage", "data"],
+          "category": "workspace_administration"
+        }
+      ],
+      "tags": ["analytics", "admin", "statistics"],
+      "category": "workspace_administration",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_050",
+      "question": "How do I report a security vulnerability?",
+      "answers": [
+        {
+          "id": "ans_050_01",
+          "answer": "If you believe you have found a security vulnerability, please report it to us responsibly via our security reporting page at [company-website.com/security]. We appreciate the community's help in keeping our platform safe.",
+          "is_primary": true,
+          "tags": ["security", "report", "vulnerability", "bug bounty"],
+          "category": "security"
+        }
+      ],
+      "tags": ["security report", "vulnerability"],
+      "category": "security",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
+    },
+    {
+      "id": "qa_051",
+      "question": "Why can't I connect to the app?",
+      "answers": [
+        {
+          "id": "ans_051_01",
+          "answer": "Connection issues can be caused by your local network or a wider service problem. First, check our status page at status.company.com. If there are no reported issues, check your internet connection. Restarting the app or your router often helps.",
+          "is_primary": true,
+          "tags": ["connection", "troubleshooting", "offline", "network", "error"],
+          "category": "troubleshooting"
+        }
+      ],
+      "tags": ["connection issue", "troubleshooting", "offline"],
+      "category": "troubleshooting",
+      "difficulty": "medium",
+      "last_updated": "2024-06-22T12:00:00.000Z"
     }
   ],
   "metadata": {
-    "version": "1.0.0",
-    "total_questions": 10,
-    "total_answers": 18,
+    "version": "2.0.0",
+    "total_questions": 51,
+    "total_answers": 53,
     "categories": [
+      "getting_started",
       "account_management",
-      "company_info", 
-      "support",
-      "policies",
-      "shipping",
-      "orders",
-      "payment",
-      "subscriptions"
+      "channels_and_dms",
+      "messaging",
+      "notifications",
+      "calls_and_huddles",
+      "files_and_integrations",
+      "search",
+      "workspace_administration",
+      "security",
+      "billing_and_subscriptions",
+      "troubleshooting",
+      "mobile_and_desktop_apps"
     ],
-    "last_updated": "2024-01-15T10:00:00.000Z",
-    "description": "AI FAQ Assistant Knowledge Base with support for multiple answers per question"
+    "last_updated": "2024-06-22T12:00:00.000Z",
+    "description": "AI FAQ Assistant Knowledge Base for a Slack-like application."
   }
-} 
+}
